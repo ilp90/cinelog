@@ -198,22 +198,7 @@ Side effect of the change: I dropped the now-unnecessary `.join(Film)` (it exist
 
 ## Commit history (Milestone 4)
 
-Rewritten to Conventional Commits, one logical change per commit, linear on top of `origin/main`
-with no merge commits. Replace the block below with a real screenshot of `git log --oneline` for
-submission.
-
-```
-docs: add PR response doc with visibility and sort-order decisions
-fix: use db.session.get for film lookup in collection service
-fix: migrate watchlist film_id to UUID after main branch refactor
-fix: sort watchlist by date added to match collection endpoint
-test: add test for nonexistent film in add_to_watchlist
-fix: add deduplication check to prevent duplicate watchlist entries
-fix: rename save_to_watchlist to add_to_watchlist per naming convention
-feat: add watchlist model and save_to_watchlist endpoint
-```
-
-(Verified: `git log --oneline --merges origin/main..HEAD` is empty.)
+![alt text](image.png)
 
 ---
 
